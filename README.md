@@ -6,9 +6,10 @@
    4. Run > Edit Configuration...> + Django Server > Name: runserver
    5. VCS > Enable VerSion Control Integation... > git > ok
 2. 차트용 실습 : startapp chart_test
- 1
+ 1. prthon manage.py startapp chart
+ 2. settings > INSTALLED_APPS > 'chart_test',  
 3. chart_test/
-   1.views
+   1.viewschart
       1. show_chart()
    2. templates
    3. Views
